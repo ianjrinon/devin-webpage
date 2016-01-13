@@ -1,0 +1,463 @@
+/* navbar */
+
+.navbar .navbar-nav {
+  display: inline-block;
+  float: none;
+  vertical-align: top;
+}
+
+.navbar .navbar-collapse {
+  text-align: center;
+}
+
+.img-sections {
+  padding-top: 10px;
+  height: 30px;
+  width: auto;
+}
+
+img.img-sections.navbar-icon-image.email-icon {
+  margin-left: 150px;
+}
+
+.logo img {
+  height: 67px;
+  width: auto;
+}
+
+.navbar-nav > li > a {
+  padding-bottom: 0px;
+}
+
+.dropdown-menu > li > a {
+  display: inline;
+  font-weight: 200;
+  color: #000;
+  line-height: 1.75;
+}
+
+.dropdown-menu {
+  left: 10px;
+  border: 0px #fff;
+  box-shadow: none;
+}
+
+ul#menu.nav.navbar-nav {
+  margin-right: -200px;
+}
+
+/* about me */
+
+.about {
+  /*height: 100vh;*/
+}
+
+.about h2 {
+  font-size: 168px;
+  margin-left: 190px;
+  margin-right: 0px;
+}
+
+.about-first h2 {
+  margin-top: 0px;
+}
+
+.about p {
+  height: 141px;
+  width: 300px;
+  margin-left: 0px;
+  margin-top: 65px;
+}
+
+@media screen and (min-width: 1215px) {
+  .about p {
+    height: 141px;
+    width: 300px;
+    margin-left: 0px;
+    margin-top: 65px;
+    position: absolute;
+    left: 30px;
+  }
+}
+
+@media screen and (min-width: 1080px) {
+  .about p {
+    height: 141px;
+    width: 300px;
+    margin-left: 0px;
+    margin-top: 65px;
+    position: absolute;
+    left: 30px;
+  }
+}
+
+@media screen and (min-width: 1070px) {
+  .about p {
+    height: 141px;
+    width: 300px;
+    margin-left: 0px;
+    margin-top: 65px;
+    position: absolute;
+    left: 50px;
+  }
+}
+
+@media screen and (min-width: 1030px) {
+  .about p {
+    height: 141px;
+    width: 300px;
+    margin-left: 0px;
+    margin-top: 65px;
+    position: absolute;
+    left: 50px;
+  }
+}
+
+@media screen and (min-width: 1018px) {
+  .about p {
+    height: 141px;
+    width: 300px;
+    margin-left: 0px;
+    margin-top: 65px;
+    position: absolute;
+    left: 50px;
+  }
+}
+
+.about-image-hold {
+  height: 120px;
+  width: 120px;
+  border-radius: 50%;
+  position: relative;
+  top: 156px;
+  left: 485px;
+  overflow: hidden;
+  z-index: 11;
+}
+
+.about-first img {
+  height: 100px;
+  width: auto;
+  position: relative;
+  top: 17px;
+  left: 40px;
+}
+
+
+/* hats */
+
+div#hats.content {
+  /*margin-top: 100vh;*/
+}
+
+.content p {
+  margin-left: 25vh;
+}
+
+.content {
+  background-size: 472px;
+  background-position: 130vh 130vh;
+}
+
+section .content {
+
+}
+
+.parallax-bg {
+  background: transparent;
+  -webkit-transition: all 0.2s ease;
+  -moz-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+}
+
+.parallax-bg p {
+  font-size: 36px;
+  line-height: 49px;
+  margin-top: 0px;
+}
+
+.content p {
+  padding-top: 300px;
+}
+
+.parallax-bg img {
+  position: relative;
+}
+
+/* hat sizes & placement */
+
+.grad-cap {
+  height: auto;
+  width: 302px;
+  /*bottom: 250px;*/
+  left: 525px;
+}
+
+.jester-cap {
+  height: auto;
+  width: 510px;
+  /*bottom: 455px;*/
+  left: 360px;
+}
+
+.comm-cap {
+  height: auto;
+  width: 240px;
+  /*bottom: 275px;*/
+  left: 600px;
+}
+
+.artist-cap {
+  height: auto;
+  width: 217px;
+  /*bottom: 330px;*/
+  left: 565px;
+}
+
+.nerd-cap {
+  height: auto;
+  width: 227px;
+  /*bottom: 290px;*/
+  left: 550px;
+}
+
+.kid-cap {
+  height: 375px;
+  width: auto;
+  /*bottom: 440px;*/
+  left: 550px;
+}
+
+ /*final slide hats*/
+
+ .all-the-hats {
+  position: relative;
+ }
+
+.all-the-hats-kid {
+  height: 330px;
+  width: auto;
+  /*top: -475px;*/
+  left: 500px;
+  z-index: 1;
+}
+
+.all-the-hats-grad {
+  /*top: -300px;*/
+  left: 250px;
+  z-index: 5;
+}
+
+.all-the-hats-jester {
+  /*top: -350px;*/
+  right: 150px;
+  z-index: 2;
+}
+
+.all-the-hats-artist {
+  /*top: -500px;*/
+  left: 550px;
+  z-index: 3;
+}
+
+.all-the-hats-comm {
+  left: 325px;
+  /*bottom: 650px;*/
+  z-index: 4;
+}
+
+.all-the-hats-nerd {
+  /*top: -675px;*/
+  left: 150px;
+  z-index: 6;
+}
+
+/* resume */
+
+.resume h2 {
+  margin-top: 250px;
+  font-size: 54px;
+  line-height: 120px;
+  margin-left: 115px;
+}
+
+.btn {
+  margin-left: 200px;
+}
+
+.devin-resume {
+  margin-top: 80px;
+}
+
+/* ux-portfolio */
+
+#sol-icon {
+  width: 145px;
+  height: auto;
+}
+
+.top-port {
+  margin-top: 25vh;
+}
+
+.ux-portfolio h2 {
+  font-size: 54px;
+}
+
+.ux-portfolio p {
+  text-align: left;
+}
+
+.ux-portfolio img {
+  height: 129px;
+  width: auto;
+}
+
+.overview-img {
+  margin-left: 35%;
+}
+
+.center-me {
+  margin-left: 40%;
+}
+
+/* communit boston */
+
+.comm-boston {
+  padding: 61px 0px;
+  
+}
+
+.comm-boston h2 {
+  /*margin-top: 20vh;*/
+  font-size: 54px;
+  line-height: 65px;
+}
+
+.comm-boston p {
+  font-size: 14px;
+  line-height: 25px;
+}
+
+.comm-top p {
+  /*height: 317px;*/
+  width: 333px;
+}
+
+.comm-icons p {
+  text-align: center;
+}
+
+.comm-icons img {
+  height: auto;
+  width: 25px;
+}
+
+.slideshow-section {
+  margin-top: 20vh;
+}
+
+.slideshow-section, .slideshow-section img {
+  height: 500px;
+  width: 500px;
+}
+
+.clip-circle {
+  -webkit-clip-path: circle(50.1% at 50% 50%);
+  clip-path: circle(50.1% at 50% 50%);
+}
+
+.text {
+  /*height: 500px;
+  width: 500px;*/
+  padding-right: 80px;
+  padding-left: 80px;
+  padding-top: 75px;
+}
+
+.slideshow-section h1 {
+  text-align: center;
+  font-size: 24px;
+}
+.slideshow-section p {
+  font-size: 17px;
+  text-align: center;
+}
+
+/* tea with strangers */
+
+.tea-with-strangers h2 {
+  margin-top: 20vh;
+  font-size: 50px;
+}
+
+.tea-resp-img {
+  margin-top: 10vh;
+}
+
+.tea-with-strangers p {
+  width: 355px;
+}
+
+.tea-profile {
+  margin-left: 25px;
+  text-align: center;
+}
+
+div.circle-tea.tea-profile {
+  height: 209px;
+  width: 209px;
+}
+
+div.circle-tea.tea-first {
+  height: 197px;
+  width: 197px;
+  position: relative;
+  right: 25px;
+}
+
+div.circle-tea.tea-second {
+  height: 295px;
+  width: 295px;
+  position: relative;
+  left: 100px;
+}
+
+div.circle-tea.tea-third {
+  height: 129px;
+  width: 129px;
+  position: relative;
+  right: 50px;
+}
+
+.tea-move {
+  position: relative;
+  bottom: 300px;
+}
+
+/* under construction */
+
+#other h2 {
+  /*margin-top: 50vh;*/
+}
+
+.under-construction h2 {
+  font-size: 65px;
+  text-align: center;
+  margin-top: 150px;
+}
+
+.under-construction {
+  /*height: 100vh;*/
+}
+
+.under-construction img {
+  height: 300px;
+  width: auto;
+  margin-left: 40%;
+}
+
+.under-construction p {
+  text-align: center;
+}
+

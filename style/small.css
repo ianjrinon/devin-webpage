@@ -1,0 +1,576 @@
+body, html {
+  width: 100%;
+}
+
+/* navbar */
+
+div#hamburgermenu.container.nav-height {
+  width: 200px;
+  display: block;
+}
+
+.navbar {
+  width: initial;
+}
+
+.navbar-default .navbar-nav .open .dropdown-menu > li > a {
+  color: #000;
+  background-color: #fff;
+}
+.navbar-default .navbar-nav .open .dropdown-menu > li > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+  color: #000;
+}
+.navbar-default .navbar-nav .open .dropdown-menu > .active > a, .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
+  color: #000;
+  background-color: #fff;
+}
+
+.logo img {
+  height: 37px;
+  width: auto;
+}
+
+h1, h2, h3 {
+  font-size: 40px;
+  line-height: 65px;
+}
+
+p {
+  font-size: 20px;
+}
+
+/* mobile-specific menu styling */
+
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #000;
+}
+
+.navbar-sections {
+  padding: 0;
+}
+
+.navbar-nav .email-icon {
+  padding-left: 0;
+}
+
+.navbar-nav .navbar-icon-image {
+  display: inline !important;
+}
+
+.navbar-nav {
+  text-align: left;
+  /*width: 200px;*/
+  background-color: #fff;
+}
+
+.navbar-fixed-top {
+  position: fixed;
+  right: 0;
+  left: initial;
+}
+
+.dropdown-menu > li > a {
+  font-weight: 200;
+  font-size: 20px;
+}
+
+.navbar-collapse.in {
+  overflow-y: visible;
+}
+
+.nav-height {
+  height: 1000px;
+}
+
+nav div.container {
+  /*width: 200px;*/
+  padding-right: 0;
+  margin-right: 0;
+  margin-left: auto;
+}
+
+.navbar-nav, .navbar-nav p {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar-nav > li {
+  float:left;
+  margin-right: 20px;
+  /*width: 130px;*/
+}
+
+.navbar-nav > li > .img-sections {
+  display: block;
+  float: left;
+  margin-right: 10px;
+}
+
+/* line up navbar icons */
+
+img.img-sections.navbar-icon-image.email-icon {
+  position: relative;
+  top: 46px;
+  right: 70px;
+}
+
+img.img-sections.navbar-icon-image.linkedin-icon {
+  position: relative;
+}
+
+img.img-sections.navbar-icon-image.instagram-icon {
+  position: relative;
+  left: 7px;
+}
+
+img.img-sections.navbar-icon-image.behance-icon {
+  position: relative;
+  right: 18px;
+}
+
+.img-sections {
+  height: 27px;
+  width: auto;
+}
+
+/* about me */
+
+.buffer {
+  display: none;
+}
+
+.about {
+  height: 100vh;
+}
+
+.about-first h2 {
+  z-index: 5;
+  font-size: 60px;
+}
+
+.about p {
+  /*width: 240px;*/
+  font-size: 16px;
+}
+
+.about-image-hold {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  position: relative;
+  top: 74px;
+  left: 100px;
+  overflow: hidden;
+  z-index: 1;
+}
+
+.about-first img {
+  height: 40px;
+  width: auto;
+  position: relative;
+  top: 10px;
+  left: 15px;
+  z-index: 0;
+}
+
+/* hats */
+
+div#hats.content {
+  margin-top: 50vh;
+}
+
+.content {
+  /*background-image: url('../images/devin-headshot.png');
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  -webkit-transition: all 0.2s ease;
+  -moz-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+  background-size: 250px;
+  background-position: 225px 445px;*/
+}
+
+.parallax-bg {
+  background: transparent;
+  -webkit-transition: all 0.2s ease;
+  -moz-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+}
+
+.parallax-bg p {
+  font-size: 30px;
+  text-align: center;
+  /*width: 100%;*/
+  /*margin-top: 2px;*/
+}
+
+.content p {
+  /*padding-top: 300px;*/
+  padding-bottom: 150px;
+}
+
+.parallax-bg img {
+  position: relative;
+}
+
+/* hat sizes & placement */
+
+.grad-cap {
+  height: auto;
+  width: 160px;
+  /*bottom: 250px;*/
+  left: 232px;
+}
+
+.jester-cap {
+  height: auto;
+  width: 272px;
+  /*bottom: 455px;*/
+  left: 135px;
+}
+
+.comm-cap {
+  height: auto;
+  width: 127px;
+  /*bottom: 275px;*/
+  left: 260px;
+}
+
+.artist-cap {
+  height: auto;
+  width: 114px;
+  /*bottom: 330px;*/
+  left: 250px;
+}
+
+.nerd-cap {
+  height: auto;
+  width: 120px;
+  /*bottom: 290px;*/
+  left: 240px;
+}
+
+.kid-cap {
+  height: 195px;
+  width: auto;
+  /*bottom: 440px;*/
+  left: 225px;
+}
+
+ /*final slide hats*/
+
+ .final-slide p {
+  position: relative;
+  top: -50px;
+  /*padding-bottom: 250px;*/
+ }
+
+ .all-the-hats {
+  position: relative;
+  bottom: 245px;
+  right: 275px;
+ }
+
+.all-the-hats-kid {
+  height: 195px;
+  width: auto;
+  top: 125px;
+  left: 525px;
+  z-index: 1;
+}
+
+.all-the-hats-grad {
+  top: 200px;
+  left: 375px;
+  z-index: 5;
+}
+
+.all-the-hats-jester {
+  height: auto;
+  width: 272px;
+  top: 150px;
+  left: 150px;
+  z-index: 2;
+}
+
+.all-the-hats-artist {
+  /*top: -275px;*/
+  left: 50px;
+  z-index: 3;
+}
+
+.all-the-hats-comm {
+  top: 50px;
+  left: 450px;
+  z-index: 4;
+}
+
+.all-the-hats-nerd {
+  height: auto;
+  width: 120px;
+  left: 300px;
+  z-index: 6;
+}
+
+/* resume */
+
+.resume {
+  text-align: center;
+}
+
+.resume h2 {
+  /*font-size: 67px;*/
+  text-align: center;
+}
+
+.resume img {
+  height: 323px;
+  width: 250px;
+}
+
+.btn {
+  padding: 5px 10px;
+  border: 0 none;
+  letter-spacing: 1px;
+  color: #000;
+  margin: 25px;
+}
+
+.btn.outline {
+  background: none;
+  color: #000;
+  padding: 6px 11px;
+}
+
+.btn-primary.outline {
+  border: 2px solid #000;
+  color: #000;
+}
+
+.btn-primary.outline:hover, .btn-primary.outline:focus, .btn-primary.outline:active, .btn-primary.outline.active, .open > .dropdown-toggle.btn-primary {
+  color: #fff;
+  background-color: #000;
+  border-color: #fff;
+}
+
+/* ux portfolio */
+
+.ux-portfolio h2 {
+  /*font-size: 36px;*/
+  line-height: 44px;
+  /*height: 88px;*/
+  /*width: 237px;*/
+}
+
+.ux-icon {
+  height: auto;
+  width: 57px;
+}
+
+/* communit boston */
+
+.comm-boston p {
+  font-size: 14px;
+  line-height: 19px;
+  /*width: 250px;*/
+  /*height: 225px;*/
+}
+
+.comm-icons p {
+  text-align: center;
+}
+
+.comm-icons img {
+  /*margin-top: -625px;*/
+  height: 19px;
+  width: auto;
+}
+
+.clip-circle {
+  -webkit-clip-path: circle(50.1% at 50% 50%);
+  clip-path: circle(50.1% at 50% 50%);
+}
+
+.slideshow-section {
+  position: relative;
+  margin-top: 20px;
+}
+
+.slideshow-section, .slideshow-section img {
+  height: 400px;
+  width: 400px;
+}
+
+.text {
+  /*height: 500px;
+  width: 500px;*/
+  padding-right: 5px;
+  padding-left: 5px;
+  padding-bottom: 5px;
+  text-align: center;
+}
+
+.slideshow-section h1 {
+  font-size: 10px;
+}
+.slideshow-section p {
+  font-size: 7px;
+}
+
+/* tea with strangers */
+
+.tea-with-strangers h2 {
+  /*font-size: 36px;*/
+  /*line-height: 44px;*/
+  text-align: center;
+  margin-top: 350px;
+}
+
+.tea-with-strangers p {
+  font-size: 14px;
+  line-height: 19px;
+  /*width: 232px;*/
+}
+
+.top p {
+  height: 183px;
+}
+
+div.circle-tea.tea-profile {
+  height: 194px;
+  width: 194px;
+}
+
+div.circle-tea.tea-first {
+  height: 101px;
+  width: 101px;
+  left: 15px;
+}
+
+div.circle-tea.tea-second {
+  height: 167px;
+  width: 167px;
+  position: relative;
+  left: 95px;
+  top: 15px;
+}
+
+div.circle-tea.tea-third {
+  height: 66px;
+  width: 66px;
+  left: 30px;
+}
+
+/* under construction */
+
+#other h2 {
+  margin-top: 50vh;
+}
+
+.under-construction h2 {
+  /*font-size: 65px;*/
+  text-align: center;
+  margin-top: 25px;
+}
+
+.under-construction {
+  height: 75vh;
+}
+
+.under-construction img {
+  height: 200px;
+  width: auto;
+  margin-left: 37%;
+}
+
+.under-construction p {
+  text-align: center;
+}
+
+/*added*/
+.parallax [class*="bg__"] {
+  position: relative;
+  height: 100vh;
+  background-attachment: fixed;
+  background-position: top center;
+  background-size: cover;
+}
+.parallax [class*="bg__"]:nth-child(2n) {
+
+}
+.parallax .bg__hats, .parallax .bg__bazz {
+  height: 90vh;
+}
+.parallax .bg__hats {
+  background-image: url(../images/parallax1-small.jpg);
+}
+.parallax .bg__social-psych {
+  background-image: url(../images/parallax2-small.jpg);
+}
+.parallax .bg__improvisor {
+  background-image: url(../images/parallax3-small.jpg);
+}
+.parallax .bg__community-builder {
+  background-image: url(../images/parallax4-small.jpg);
+}
+.parallax .bg__artist {
+  background-image: url(../images/parallax5-small.jpg);
+}
+.parallax .bg__nerd {
+  background-image: url(../images/parallax6-small.jpg);
+}
+.parallax .bg__kid {
+  background-image: url(../images/parallax7-small.jpg);
+}
+.parallax .bg__final-slide {
+  background-image: url(../images/parallax8-small.jpg);
+}
+.parallax .capture {
+  float: right;
+  width: 200px;
+  padding: 1em;
+  margin: -1.5em 1em 0 0;
+  text-indent: 0;
+  background: rgba(243, 243, 243, 0.75);
+  box-shadow: 0 1px 0.125em #333;
+}
+
+article .container {
+  width: 600px;
+  margin: 0 auto;
+}
+article .header {
+  position: relative;
+  margin: -5em 0 0 0;
+  padding: 1em;
+  text-align: left;
+  font-size: 2em;
+  color: #333;
+  background-color: rgba(255, 255, 255, 0.75);
+}
+article h1, article h2 {
+  margin: 0 0 0.333em;
+}
+article section {
+  padding: 3em;
+}
+article section.parallax {
+  margin: 0;
+  padding: 0;
+}
+
+.arrow-wrap {
+    position: absolute;
+    z-index: 1;
+    left: 50%;
+    top: 57em;
+    margin-left: -5em;
+    background: #FFF none repeat scroll 0% 0%;
+    width: 10em;
+    height: 10em;
+    padding: 4em 2em;
+    border-radius: 50%;
+    font-size: 0.5em;
+    display: block;
+}
